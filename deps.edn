@@ -1,7 +1,7 @@
 {:aliases
  {:dev {:extra-deps {thheller/shadow-cljs {:mvn/version "2.25.5"}}
-        :extra-paths ["example_src" "src"]}}
- :paths ["resources"]
+        :extra-paths ["example_src"]}}
+ :paths ["src" "resources"]
  :deps
  {org.clojure/clojure {:mvn/version "1.11.1"}
   org.clojure/core.async {:mvn/version "1.6.681"}
