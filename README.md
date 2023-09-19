@@ -6,6 +6,25 @@ Modified version that used shadow-cljs and deps.edn. Run:
 
 To see the demo devcards.
 
+At the moment you need to use a `deps.edn` + shadow-cljs
+(https://shadow-cljs.github.io/docs/UsersGuide.html#deps-edn) to integrate this
+modified version:
+
+```clojure
+{:deps
+ {
+  ...
+  simplemono/devcards {:git/url "https://github.com/simplemono/devcards.git"
+                       :sha "757ab5de8de59fcb5554a2a49aa39d47056194be"}
+  ...
+  }}
+```
+
+In your shadow-cljs project you need to install
+[highlight.js](https://www.npmjs.com/package/highlight.js):
+
+    npm install highlight.js
+
 ### Current release:
 
 [![Clojars Project](https://clojars.org/devcards/latest-version.svg)](https://clojars.org/devcards)
