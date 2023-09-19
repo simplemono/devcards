@@ -1,7 +1,9 @@
 (ns devdemos.source-code-display
   (:require
     [cljs.repl]
-    [sablono.core :as sab :include-macros true])
+    [sablono.core :as sab :include-macros true]
+    [devcards.core]
+    )
   (:require-macros
     [devcards.core :as dc :refer [defcard defcard-doc mkdn-pprint-source]]))
 
