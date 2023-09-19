@@ -1,10 +1,18 @@
 # Devcards
 
-Modified version that used shadow-cljs and deps.edn. Run:
+Modified version that used shadow-cljs and deps.edn.
 
+To see the example devcards, git clone this repository and run:
+
+    npm install
     bin/devcards-demos
 
-To see the demo devcards.
+Then open:
+
+http://localhost:8021/devcards/
+
+to see the demo devcards.
+
 
 At the moment you need to use a `deps.edn` + shadow-cljs
 (https://shadow-cljs.github.io/docs/UsersGuide.html#deps-edn) to integrate this
